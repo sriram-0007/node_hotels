@@ -10,6 +10,6 @@ const menuSchema=new mongoose.Schema({
     }
 });
 
-// comment added
+// comment added for testing
 const Menu=mongoose.model("menu",menuSchema);
 module.exports=Menu;
